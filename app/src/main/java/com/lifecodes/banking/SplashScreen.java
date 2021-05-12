@@ -28,7 +28,7 @@ public class SplashScreen extends AppCompatActivity {
             public void run() {
                 startEnterAnimation();
             }
-        }, 1000);
+        }, 500);
 
         new Handler().postDelayed(new Runnable() {
             @Override
