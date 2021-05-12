@@ -76,7 +76,7 @@
                 android:id="@+id/rupeeslash"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" /-"
+                android:text="@string/rs_symbol"
                 android:textSize="15sp"
                 android:textStyle="bold"
                 android:textColor="#311B92" />
