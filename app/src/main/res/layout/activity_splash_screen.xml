@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/splash2"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="BANKING SYSTEM"
+        android:textAllCaps="false"
+        android:textColor="#F42516"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/designed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed By  "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#F31F0F"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JIGAR SABLE"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#F12213"
+            android:visibility="invisible" />
+    </LinearLayout>
+</RelativeLayout>
