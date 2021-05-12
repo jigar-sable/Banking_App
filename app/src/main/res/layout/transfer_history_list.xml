@@ -60,7 +60,7 @@
                 android:id="@+id/date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Date"
+                android:text="@string/date"
                 android:textSize="15dp" />
         </LinearLayout>
 
@@ -75,7 +75,7 @@
                 android:id="@+id/rupee"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rs."
+                android:text="@string/rs2"
                 android:textSize="15sp"
                 android:textStyle="bold"
                 android:textColor="#0D44EC" />
@@ -84,7 +84,7 @@
                 android:id="@+id/balance"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Amount"
+                android:text="@string/amount"
                 android:textSize="15sp"
                 android:textStyle="bold"
                 android:textColor="#0D44EC" />

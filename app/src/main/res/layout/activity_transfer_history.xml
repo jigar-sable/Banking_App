@@ -16,7 +16,7 @@
         android:id="@+id/empty_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="No History"
+        android:text="@string/no_trn_hs"
         android:layout_centerInParent="true"
         android:textColor="#000"
         android:textSize="18sp"

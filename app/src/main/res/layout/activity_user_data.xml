@@ -46,7 +46,7 @@
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="Name :"
+                android:text="@string/name"
                 android:layout_marginRight="20dp" />
 
             <TextView
@@ -72,7 +72,7 @@
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="Mobile Number :"
+                android:text="@string/mobile_number"
                 android:layout_marginRight="20dp" />
 
             <TextView
@@ -98,7 +98,7 @@
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="Email Id :"
+                android:text="@string/email_id"
                 android:layout_marginRight="20dp" />
 
             <TextView
@@ -124,7 +124,7 @@
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="Account No :"
+                android:text="@string/account_no"
                 android:layout_marginRight="20dp" />
 
             <TextView
@@ -150,7 +150,7 @@
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="IFSC Code :"
+                android:text="@string/ifsc_code"
                 android:layout_marginRight="20dp" />
 
             <TextView
@@ -176,7 +176,7 @@
                 android:textSize="18sp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:text="Current Balance :"
+                android:text="@string/current_balance"
                 android:layout_marginRight="20dp" />
 
             <LinearLayout
@@ -190,7 +190,7 @@
                     android:id="@+id/rupee"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Rs."
+                    android:text="@string/rs1"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="#FA2111" />
@@ -207,7 +207,7 @@
                     android:id="@+id/rupeeslash"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" /-"
+                    android:text="@string/rs"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="#FA2111" />
@@ -224,7 +224,7 @@
             android:layout_marginBottom="50dp"
             android:paddingVertical="5dp"
             android:paddingHorizontal="10dp"
-            android:text="Transfer Money"
+            android:text="@string/transfer_money"
             android:textAllCaps="false"
             android:textColor="#fff"
             android:backgroundTint="#1530C6"

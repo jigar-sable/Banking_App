@@ -18,7 +18,7 @@
             android:id="@+id/username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="User Name"
+            android:text="@string/user_name"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#FA2111"
@@ -43,7 +43,7 @@
                 android:id="@+id/userphonenumber"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Phone Number"
+                android:text="@string/phone_number"
                 android:textSize="15sp" />
         </LinearLayout>
 
@@ -67,7 +67,7 @@
                 android:id="@+id/balance"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Balance"
+                android:text="@string/balance"
                 android:textSize="15sp"
                 android:textStyle="bold"
                 android:textColor="#311B92" />

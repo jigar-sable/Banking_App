@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Banking App</string>
+    <string name="select_user">Select a user to transfer money</string>
+    <string name="splash_title">BANKING SYSTEM APP</string>
+    <string name="splash_dev1">Developed By</string>
+    <string name="splash_dev2">JIGAR SABLE</string>
+    <string name="no_trn_hs">No Transaction History</string>
+    <string name="name">Name :</string>
+    <string name="mobile_number">Mobile Number :</string>
+    <string name="email_id">Email Id :</string>
+    <string name="account_no">Account No :</string>
+    <string name="ifsc_code">IFSC Code :</string>
+    <string name="current_balance">Current Balance :</string>
+    <string name="rs">/-</string>
+    <string name="rs1">Rs.</string>
+    <string name="transfer_money">Transfer Money</string>
+    <string name="date">Date</string>
+    <string name="rs2">Rs.</string>
+    <string name="amount">Amount</string>
+    <string name="user_name">User Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="balance">Balance</string>
+    <string name="search">Search</string>
+    <string name="view_users">View Users</string>
+    <string name="transactions">Transactions</string>
+    <string name="search1">Search</string>
 </resources>
